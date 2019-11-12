@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+            h1 {
+                color: white;
+                text-align: center;
+            }
+            h2 {
+                color: #17a2b8;
+                text-align: center;
+            }
+            p{
+                color: white;
+                text-align: center;
+            }
+            
+            body{
+                background-color: black;
+            } 
+        </style>
+    </head>
+<h1>Dinoaldo Guerassauro S.A.</h1>
+<p><img src="/images/logosite.jpg" alt="Dinos" width="120" height="120"></p>
+<p></p>
+<h2>Fill in the fields below to access the purchase page</h1>
+<br>
+<div class="cadastro">
+<form  action="/create" method="post">
+    <input type="text" placeholder="name" name="user[fullname]"></input>
+    <br><br>
+    <input type="email" placeholder="username" name="user[email]"></input>
+    <br><br>
+    <input type="password" placeholder="password" name="user[password]"></input>
+    <br><br>
+    <input type="text" placeholder="debitcard" name="user[debitcard]"></input>
+    <br><br>
+    <input type="text" placeholder="rg" name="user[rg]"></input>
+    <br><br>
+    <input type="text" placeholder="cpf" name="user[cpf]"></input>
+    <br><br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</html>
