@@ -1,0 +1,33 @@
+<html>
+        <head>
+            <style>
+
+/* DADO DO AVISO */
+.aviso-content {
+  display: none;
+  position: absolute;
+  top: 200px;
+  right: 450px;
+  background-color: #7e7a7a;
+  padding: 70px;
+}
+
+/* Mostra o aviso */
+.show { 
+  display: block;
+}
+            </style>
+        </head>
+  <body>
+<div class="aviso">
+    <button onclick=aparecerAviso() class="Avisobtn">botão</button>
+    <script src="/javascripts/Funcoes.js"></script>
+    <div id="myaviso" class="aviso-content">
+        <a><strong> Confirme sua Compra</strong></a>
+        <button>Confirmar</button>
+        <button onclick=aparecerAviso()>Cancelar</button>
+    </div>
+  </div>
+
+  </body>
+</html>
