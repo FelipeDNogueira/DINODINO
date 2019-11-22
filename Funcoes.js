@@ -9,6 +9,8 @@ function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-function MyFunction2() {
-  document.getElementById("myDropdown").classList.toggle("hide")
+function aparecerAviso(){
+  document.getElementById("myaviso").classList.toggle("show");
 }
+
+
